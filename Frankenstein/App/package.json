@@ -1,0 +1,27 @@
+{
+  "name": "frankenstein-dotnet-react",
+  "version": "1.0.0",
+  "description": "Demo app to illustrate an iterative migration of a legacy ASP.NET MVC app to React",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tysonnero/frankenstein-dotnet-react.git"
+  },
+  "keywords": [
+    "ASP.NET",
+    "MVC",
+    "dotnet",
+    "React",
+    "TypeScript",
+    "Redux"
+  ],
+  "author": "Tyson Nero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tysonnero/frankenstein-dotnet-react/issues"
+  },
+  "homepage": "https://github.com/tysonnero/frankenstein-dotnet-react#readme"
+}
