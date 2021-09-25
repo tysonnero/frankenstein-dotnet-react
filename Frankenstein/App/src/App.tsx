@@ -3,6 +3,7 @@ import { hot } from 'react-hot-loader/root';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import { TheMonster } from './components/TheMonster';
+import { Privacy } from './features/Privacy';
 
 const App = (): JSX.Element => {
   return (
@@ -15,6 +16,9 @@ const App = (): JSX.Element => {
           <Switch>
             <Route path="/the-monster">
               <TheMonster />
+            </Route>
+            <Route path="/privacy">
+              <Privacy />
             </Route>
           </Switch>
         </Router>

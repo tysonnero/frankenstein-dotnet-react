@@ -35,9 +35,6 @@ html {
   }
 }
 
-.border-top {
-  border-top: 1px solid #e5e5e5;
-}
 .border-bottom {
   border-bottom: 1px solid #e5e5e5;
 }
@@ -49,23 +46,4 @@ html {
 button.accept-policy {
   font-size: 1rem;
   line-height: inherit;
-}
-
-/* Sticky footer styles
--------------------------------------------------- */
-html {
-  position: relative;
-  min-height: 100%;
-}
-
-body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
-}
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  white-space: nowrap;
-  line-height: 60px; /* Vertically center the text there */
 }
