@@ -1,0 +1,26 @@
+.monster-eye {
+  background: #fff;
+  border-bottom-left-radius: 80px;
+  border-bottom-right-radius: 80px;
+  height: 35px;
+  position: absolute;
+  width: 55px;
+
+  &--left {
+    left: 20px;
+  }
+
+  &--right {
+    left: 95px;
+  }
+
+  &__pupil {
+    background: #1e201f;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    height: 20px;
+    left: 10px;
+    position: absolute;
+    width: 35px;
+  }
+}

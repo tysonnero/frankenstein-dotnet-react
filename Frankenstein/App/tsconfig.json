@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowSyntheticDefaultImports": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "noUnusedLocals": true,
+    "noImplicitAny": true,
+    "target": "ESNext",
+    "module": "ESNext",
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "react-jsx",
+    "baseUrl": ".",
+    "paths": {
+      "testUtils": ["src/utils/testUtils"]
+    }
+  },
+  "include": ["src/**/*", "jest.setup"],
+  "exclude": ["node_modules", "dist"]
+}
