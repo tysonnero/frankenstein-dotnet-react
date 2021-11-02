@@ -1,0 +1,15 @@
+{
+  "extends": ["stylelint-config-sass-guidelines", "stylelint-config-prettier"],
+  "rules": {
+    "unit-no-unknown": true,
+    "selector-class-pattern": null,
+    "max-nesting-depth": 3,
+    "selector-no-qualifying-type": [
+      true,
+      {
+        "ignore": ["attribute"]
+      }
+    ],
+    "scss/at-extend-no-missing-placeholder": null
+  }
+}
