@@ -6,7 +6,10 @@ const StylelintPlugin = require('stylelint-webpack-plugin');
 const path = require('path');
 
 module.exports = {
-  entry: ['react-hot-loader/patch', './src/index'],
+  entry: {
+    main: ['react-hot-loader/patch', './src/index'],
+    footer: ['react-hot-loader/patch', './src/footer'],
+  },
   output: {
     path: path.resolve(__dirname, '../wwwroot/dist'),
     filename: '[name].[contenthash].js',
