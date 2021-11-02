@@ -2,6 +2,10 @@
 
 ## Setup
 
+### Environment
+
+Copy `Frankenstein/App/.env.example` to `Frankenstein/App/.env` and set any environment variables.
+
 ### Dev Tools
 
 Install the following extensions in your browser:
@@ -60,3 +64,8 @@ Please see the following Example components as a framework for creating addition
 │           └── index.ts            # Directory level exports
 └── ...
 ```
+
+## Resources
+- [Redux](https://redux.js.org/introduction/getting-started)
+- [Redux Toolkit](https://redux-toolkit.js.org/introduction/getting-started)
+- [React Redux](https://react-redux.js.org/introduction/getting-started)
