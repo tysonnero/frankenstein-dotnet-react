@@ -42,3 +42,5 @@ npm-debug.log*
 .npm/
 
 Frankenstein/wwwroot/dist
+
+.env

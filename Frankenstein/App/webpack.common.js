@@ -5,6 +5,8 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const StylelintPlugin = require('stylelint-webpack-plugin');
 const path = require('path');
 
+require('dotenv').config();
+
 module.exports = {
   entry: {
     main: ['react-hot-loader/patch', './src/index'],
@@ -43,5 +45,6 @@ module.exports = {
       },
     }),
     new StylelintPlugin(),
+    new webpack.EnvironmentPlugin(['GOOGLE_API_KEY']),
   ],
 };
